@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batalla de Talentos | El escenario donde brillan las habilidades</title>
+  <meta name="description" content="Batalla de Talentos: una actividad recreativa y cultural donde el esfuerzo, el compromiso y la creatividad se encuentran en el escenario.">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons (para iconografía de UI: sol/luna, búsqueda, flechas) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Tipografías: Anton (display), Inter (cuerpo), Space Mono (datos/eyebrows) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Inter:wght@300;400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Overlay de transición cinematográfica entre páginas -->
+  <div class="page-transition-overlay is-active"></div>
+
+  <!-- Cursor personalizado -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Luces de fondo dinámicas (ambientales) -->
+  <div class="ambient-lights" aria-hidden="true">
+    <span></span><span></span><span></span>
+  </div>
+
+  <!-- =================== NAVBAR =================== -->
+  <nav class="navbar navbar-battle navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand brand" href="#hero">Batalla<span class="accent">.</span>Talentos</a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <i class="bi bi-list text-white fs-2"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
+          <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="#estadisticas">Estadísticas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bilingue">Bilingual</a></li>
+          <li class="nav-item"><a class="nav-link page-link" href="glossary.html">Glossary</a></li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <button class="theme-toggle-btn" type="button" aria-label="Cambiar entre modo claro y oscuro">
+              <i class="bi bi-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =================== 1. HERO SECTION =================== -->
+  <header class="hero" id="hero">
+    <div class="hero-ring" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <span class="hero-eyebrow">Edición 2026 · Talento en escena</span>
+
+      <h1 class="hero-title">
+        <span class="word" style="animation-delay:.05s">Batalla</span>
+        <span class="word" style="animation-delay:.18s">de</span>
+        <span class="word gradient-text" style="animation-delay:.3s">Talentos</span>
+      </h1>
+
+      <p class="hero-subtitle">"Más que una competencia, el escenario donde tus habilidades brillan."</p>
+
+      <p class="hero-description">
+        La Batalla de Talentos es una actividad recreativa y cultural que reúne a los participantes
+        para demostrar sus habilidades, destrezas y creatividad en diferentes disciplinas artísticas
+        como canto, baile, actuación, música, poesía y otras expresiones culturales.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#experiencia" class="btn-battle-primary">
+          Descubrir mi experiencia <i class="bi bi-arrow-down-short"></i>
+        </a>
+        <button type="button" class="btn-battle-ghost" data-bs-toggle="modal" data-bs-target="#infoModal">
+          ¿Qué es la batalla de talentos? <i class="bi bi-info-circle"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span>Scroll</span>
+      <span class="line"></span>
+    </div>
+  </header>
+
+  <main>
+    <!-- =================== 2. MI EXPERIENCIA =================== -->
+    <section id="experiencia">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center reveal">
+            <span class="section-eyebrow">Round 01 · Testimonio</span>
+            <h2 class="section-title">Mi experiencia en la <span class="accent">Batalla de Talentos</span></h2>
+            <p class="section-lead mx-auto">Lo que viví desde las butacas, viendo brillar a cada participante.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="experience-card reveal reveal-delay-1">
+              <p>
+                Fue una experiencia muy agradable y entretenida, tuve la oportunidad de observar las diferentes
+                presentaciones y apreciar el esfuerzo, la dedicación y el talento de cada participante. Me impresionó
+                la creatividad y la confianza con la que se presentaron frente al público. Durante la actividad
+                disfruté de un ambiente de alegría, compañerismo y respeto, donde cada presentación fue recibida con
+                entusiasmo y apoyo. Además, pude conocer habilidades que no sabía que tenían algunos de mis
+                compañeros, lo que hizo la experiencia aún más interesante.
+              </p>
+              <div class="experience-tags">
+                <span class="tag-chip">#Esfuerzo</span>
+                <span class="tag-chip">#Creatividad</span>
+                <span class="tag-chip">#Compañerismo</span>
+                <span class="tag-chip">#Confianza</span>
+                <span class="tag-chip">#Alegría</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== 3. GALERÍA MULTIMEDIA =================== -->
+    <section id="galeria">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-7 text-center reveal">
+            <span class="section-eyebrow">Round 02 · Memoria visual</span>
+            <h2 class="section-title">Galería <span class="accent">multimedia</span></h2>
+            <p class="section-lead mx-auto">20 instantes que capturan la energía del escenario.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="gallery-shell reveal reveal-delay-1">
+              <div id="galeriaCarousel" class="carousel slide carousel-battle" data-bs-ride="carousel" data-bs-touch="true">
+
+                <div class="carousel-inner">
+                  <!-- Foto 1 -->
+                  <div class="carousel-item active">
+                    <img src="img/imgfoto1.jpg" alt="Participante presentando en el escenario de la Batalla de Talentos">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">01 / 20</span>
+                      <h5>Apertura del evento</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 2 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto2.jpg" alt="Acto de canto durante la competencia">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">02 / 20</span>
+                      <h5>Acto de canto</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 3 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto3.jpg" alt="Coreografía de baile grupal">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">03 / 20</span>
+                      <h5>Coreografía grupal</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 4 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto4.jpg" alt="Presentación de actuación teatral">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">04 / 20</span>
+                      <h5>Actuación teatral</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 5 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto5.jpg" alt="Recital de poesía en el escenario">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">05 / 20</span>
+                      <h5>Recital de poesía</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 6 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto6.jpg" alt="Interpretación musical en vivo">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">06 / 20</span>
+                      <h5>Interpretación musical</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 7 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto7.jpg" alt="Público animando a los participantes">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">07 / 20</span>
+                      <h5>El público en acción</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 8 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto8.jpg" alt="Solista de canto en el micrófono">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">08 / 20</span>
+                      <h5>Solista en escena</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 9 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto9.jpg" alt="Pareja de baile durante su presentación">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">09 / 20</span>
+                      <h5>Dueto de baile</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 10 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto10.jpg" alt="Jurado evaluando las presentaciones">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">10 / 20</span>
+                      <h5>El jurado evalúa</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 11 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto11.jpg" alt="Participante con instrumento musical">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">11 / 20</span>
+                      <h5>Instrumento en vivo</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 12 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto12.jpg" alt="Grupo de baile urbano">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">12 / 20</span>
+                      <h5>Baile urbano</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 13 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto13.jpg" alt="Momento de comedia y actuación">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">13 / 20</span>
+                      <h5>Comedia en escena</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 14 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto14.jpg" alt="Presentación de canto coral">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">14 / 20</span>
+                      <h5>Canto coral</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 15 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto15.jpg" alt="Luces del escenario antes de una presentación">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">15 / 20</span>
+                      <h5>Luces de escenario</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 16 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto16.jpg" alt="Participantes celebrando al finalizar su acto">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">16 / 20</span>
+                      <h5>Celebración final</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 17 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto17.jpg" alt="Vestuario y preparación entre bastidores">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">17 / 20</span>
+                      <h5>Entre bastidores</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 18 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto18.jpg" alt="Acto grupal de talentos combinados">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">18 / 20</span>
+                      <h5>Acto grupal</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 19 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto19.jpg" alt="Entrega de reconocimientos a los participantes">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">19 / 20</span>
+                      <h5>Entrega de reconocimientos</h5>
+                    </div>
+                  </div>
+                  <!-- Foto 20 -->
+                  <div class="carousel-item">
+                    <img src="img/imgfoto20.jpg" alt="Foto grupal de cierre del evento">
+                    <div class="carousel-caption-battle">
+                      <span class="cap-index">20 / 20</span>
+                      <h5>Cierre del evento</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Indicadores personalizados (barras) -->
+            <div class="carousel-indicators-battle" id="customIndicators">
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Foto 1"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="1" aria-label="Foto 2"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="2" aria-label="Foto 3"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="3" aria-label="Foto 4"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="4" aria-label="Foto 5"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="5" aria-label="Foto 6"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="6" aria-label="Foto 7"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="7" aria-label="Foto 8"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="8" aria-label="Foto 9"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="9" aria-label="Foto 10"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="10" aria-label="Foto 11"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="11" aria-label="Foto 12"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="12" aria-label="Foto 13"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="13" aria-label="Foto 14"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="14" aria-label="Foto 15"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="15" aria-label="Foto 16"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="16" aria-label="Foto 17"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="17" aria-label="Foto 18"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="18" aria-label="Foto 19"></button>
+              <button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="19" aria-label="Foto 20"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== 4. ESTADÍSTICAS ANIMADAS =================== -->
+    <section id="estadisticas">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-7 text-center reveal">
+            <span class="section-eyebrow">Round 03 · En números</span>
+            <h2 class="section-title">El evento en <span class="accent">cifras</span></h2>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-6 col-md-3 reveal reveal-delay-1">
+            <div class="stat-card">
+              <div class="stat-number" data-target="20" data-suffix="+">0</div>
+              <div class="stat-label">Fotografías del evento</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 reveal reveal-delay-2">
+            <div class="stat-card">
+              <div class="stat-number" data-target="100" data-suffix="%">0</div>
+              <div class="stat-label">Creatividad y aprendizaje</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 reveal reveal-delay-3">
+            <div class="stat-card">
+              <div class="stat-number" data-target="6" data-suffix="">0</div>
+              <div class="stat-label">Disciplinas artísticas</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 reveal">
+            <div class="stat-card">
+              <div class="stat-number" data-target="100" data-suffix="%">0</div>
+              <div class="stat-label">Compañerismo y respeto</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== 5. CONTENIDO BILINGÜE =================== -->
+    <section id="bilingue">
+      <div class="container">
+        <div class="row justify-content-center mb-4">
+          <div class="col-lg-7 text-center reveal">
+            <span class="section-eyebrow">Round 04 · Bilingual Experience</span>
+            <h2 class="section-title">Una experiencia, <span class="accent">dos idiomas</span></h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center reveal reveal-delay-1">
+            <div class="lang-switch-shell" role="group" aria-label="Selector de idioma">
+              <button type="button" class="active" data-lang="es">Español 🇨🇴</button>
+              <button type="button" data-lang="en">English 🇺🇸</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="experience-card reveal reveal-delay-2">
+              <div class="lang-panel active" data-lang="es">
+                <p>
+                  La Batalla de Talentos me permitió ser testigo del esfuerzo y el compromiso de cada
+                  participante. Cada presentación reflejó horas de práctica, nervios superados y una
+                  enorme dosis de pasión por compartir su arte. El compañerismo entre los participantes
+                  y el público creó un ambiente cálido donde el respeto y la alegría fueron protagonistas.
+                </p>
+              </div>
+              <div class="lang-panel" data-lang="en">
+                <p>
+                  The Talent Battle let me witness the effort and commitment of every participant.
+                  Each performance reflected hours of practice, nerves overcome, and a huge dose of
+                  passion for sharing their art. The camaraderie between participants and the audience
+                  created a warm atmosphere where respect and joy took center stage.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== ACCORDION: PREGUNTAS FRECUENTES =================== -->
+    <section id="faq">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-7 text-center reveal">
+            <span class="section-eyebrow">Round 05 · Preguntas frecuentes</span>
+            <h2 class="section-title">Antes de <span class="accent">subir al escenario</span></h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8 reveal reveal-delay-1">
+            <div class="accordion accordion-battle" id="faqAccordion">
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    ¿Quiénes pueden participar en la Batalla de Talentos?
+                  </button>
+                </h3>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Cualquier estudiante con una habilidad artística que quiera compartir: canto, baile,
+                    actuación, música, poesía u otra expresión cultural es bienvenido a inscribirse.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    ¿Cómo se evalúan las presentaciones?
+                  </button>
+                </h3>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Un jurado evalúa criterios como creatividad, dominio escénico, originalidad y la
+                    conexión que cada participante logra con el público durante su acto.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    ¿Qué valores se promueven durante el evento?
+                  </button>
+                </h3>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Esfuerzo, compromiso, alegría y compañerismo son los valores centrales: el evento busca
+                    celebrar el talento individual dentro de un ambiente de respeto y apoyo colectivo.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                    ¿Dónde puedo aprender más vocabulario relacionado con el evento?
+                  </button>
+                </h3>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    En nuestra página
+                    <a href="glossary.html" class="page-link text-decoration-underline">Glossary</a>
+                    encontrarás más de 15 términos técnicos en inglés, con su traducción y definición.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =================== MODAL: ¿QUÉ ES LA BATALLA DE TALENTOS? =================== -->
+  <div class="modal fade modal-battle" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="infoModalLabel">¿Qué es la Batalla de Talentos?</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Es una actividad recreativa y cultural que reúne a los participantes para demostrar sus
+            habilidades, destrezas y creatividad en diferentes disciplinas artísticas como canto, baile,
+            actuación, música, poesía y otras expresiones culturales.
+          </p>
+          <p class="mb-0">
+            Más que una competencia, es un espacio para celebrar el esfuerzo, el compromiso y la alegría
+            de compartir el talento propio frente a una comunidad que aplaude y apoya cada presentación.
+          </p>
+        </div>
+        <div class="modal-footer border-0">
+          <button type="button" class="btn-battle-ghost" data-bs-dismiss="modal">Entendido</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="footer-battle">
+    <div class="container">
+      <div class="brand-foot">Batalla<span style="color:var(--magenta)">.</span>Talentos</div>
+      <p class="mb-1">Proyecto académico — Diseño Web Frontend</p>
+      <p class="mb-0">&copy; 2026 Batalla de Talentos. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botón volver al inicio -->
+  <button class="back-to-top" type="button" aria-label="Volver al inicio de la página">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Script propio -->
+  <script src="js/script.js"></script>
+</body>
+</html>
